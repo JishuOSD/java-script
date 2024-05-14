@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#weapper{
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#weapper .res{
+    background-color: chartreuse;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#weapper button{
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+#clrchange{
+    height: 100vh;
+    background-color: #0abde3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clrchange button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
